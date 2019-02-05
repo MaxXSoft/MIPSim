@@ -10,6 +10,7 @@ A simple MIPS simulator, designed for Project Uranus.
 - [ ] Exceptions & interruptions
 - [ ] MIPS 32 instructions
 - [ ] JIT
+- [ ] Assembler
 
 ## Copyright and License
 
