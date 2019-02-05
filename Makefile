@@ -19,9 +19,10 @@ MIPSIM_OBJ_DIR = $(OBJ_DIR)/mipsim
 TEST_OBJ_DIR = $(OBJ_DIR)/test
 SRC_DIR = $(TOP_DIR)/src
 TEST_DIR = $(TOP_DIR)/test
+LIB_DIR = $(TOP_DIR)/lib
 INC_PATH := /usr/local/include
 LIB_PATH := /usr/local/lib
-INCLUDE_ARG := -I$(SRC_DIR) -I$(TEST_DIR) -I$(INC_PATH)
+INCLUDE_ARG := -I$(SRC_DIR) -I$(TEST_DIR) -I$(LIB_DIR) -I$(INC_PATH)
 LIBRARY_ARG := -L$(LIB_PATH) -lSDL2
 
 # files
